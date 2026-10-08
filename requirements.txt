@@ -1,0 +1,25 @@
+# Python dependencies for the CES-D Ising symptom-network analysis.
+# Install with:  pip install -r requirements.txt
+#
+# Versions below are the ones used for the analyses reported in the manuscript
+# (Python 3.13 on Windows). Looser pins are acceptable for the general-purpose
+# libraries; the numerical results are not sensitive to minor version drift.
+
+numpy>=2.0,<3.0
+pandas>=2.2,<3.0
+scipy>=1.13,<2.0
+scikit-learn>=1.5,<2.0
+networkx>=3.3,<4.0
+python-louvain>=0.16
+matplotlib>=3.9,<4.0
+openpyxl>=3.1,<4.0
+
+# Linear mixed-effects models (Table S14)
+statsmodels>=0.14
+
+# Word output for the supplementary tables (tables/)
+python-docx>=1.1
+
+# Only required for the optional CFPS Stata-to-Excel conversion utility.
+# pyreadstat>=1.2
+# xlsxwriter>=3.2

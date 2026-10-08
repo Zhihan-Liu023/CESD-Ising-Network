@@ -1,0 +1,54 @@
+# ---- Cohort data (restricted) ------------------------------------------
+# The FDSC and RCT data are not publicly redistributable. Only the publicly
+# available CFPS and MIDUS files, or de-identified derivatives, may be shared.
+data/*
+!data/README.md
+
+# ---- Raw data files by extension (belt-and-suspenders) -----------------
+# Never commit restricted/identifiable data even if it lands outside data/
+# or results/. All real cohort inputs and analysis outputs use these.
+*.xlsx
+*.xls
+*.csv
+*.dta
+*.sav
+*.sas7bdat
+
+# ---- Analysis outputs --------------------------------------------------
+results/*
+!results/.gitkeep
+!results/README.md
+
+# ---- Python ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Local logs --------------------------------------------------------
+*.log
+
+# ---- Jupyter -----------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---- Editors and OS ----------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Large intermediates ------------------------------------------------
+*.npz
+*.tmp

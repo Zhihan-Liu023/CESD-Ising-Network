@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript below."
+title: "CES-D symptom network analysis code: Ising model, percolation organization and the standardized network clinical indicator (SNCI)"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Zhihan"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "He"
+    given-names: "Youze"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Ding"
+    given-names: "Minjiang"
+    affiliation: "Center of Psychological Health Education, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Yuan"
+    given-names: "Zhiwei"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Zhou"
+    given-names: "Xinye"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Huang"
+    given-names: "Jinshan"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Wu"
+    given-names: "Xinyu"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Lu"
+    given-names: "Xiuxu"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Tao"
+    given-names: "Jing"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Lee"
+    given-names: "Tatia M.C."
+    affiliation: "State Key Laboratory of Brain and Cognitive Sciences, The University of Hong Kong, Hong Kong, China"
+  - family-names: "Chen"
+    given-names: "Lidian"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+  - family-names: "Wu"
+    given-names: "Jingsong"
+    affiliation: "College of Rehabilitation Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China"
+repository-code: "https://github.com/zhihan-liu023/CESD-Ising-Network"
+license: MIT
+keywords:
+  - depressive symptoms
+  - CES-D
+  - Ising model
+  - symptom network
+  - percolation
+  - psychometrics
+  - Tai Chi
+preferred-citation:
+  type: article
+  title: "Network-derived clinical indicator of symptom system stability and core symptoms in depression: a cross-cultural validation study"
+  authors:
+    - family-names: "Liu"
+      given-names: "Zhihan"
+    - family-names: "He"
+      given-names: "Youze"
+    - family-names: "Ding"
+      given-names: "Minjiang"
+    - family-names: "Yuan"
+      given-names: "Zhiwei"
+    - family-names: "Zhou"
+      given-names: "Xinye"
+    - family-names: "Huang"
+      given-names: "Jinshan"
+    - family-names: "Wu"
+      given-names: "Xinyu"
+    - family-names: "Lu"
+      given-names: "Xiuxu"
+    - family-names: "Tao"
+      given-names: "Jing"
+    - family-names: "Lee"
+      given-names: "Tatia M.C."
+    - family-names: "Chen"
+      given-names: "Lidian"
+    - family-names: "Wu"
+      given-names: "Jingsong"
+  journal: "Nature Mental Health"
+  year: 2026
+  note: "in submission"
